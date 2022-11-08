@@ -225,7 +225,7 @@ li {
   background-color: var(--bg-c-blue-white);
 }
 
-.data-modal {
+.backdrop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -559,12 +559,10 @@ address {
   gap: 30px;
 }
 
-.portfolio-items {
+.item {
   display: block;
-  position: relative;
-  overflow: hidden;
 }
-.portfolio-items:hover .portfolio-text {
+.item:hover .portfolio-text {
   transform: translateY(0);
 }
 .portfolio-list {
@@ -574,6 +572,11 @@ address {
 .portfolio-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-images-wrapper{
+position: relative;
+overflow: hidden;
+
 }
 .portfolio-text {
   position: absolute;
