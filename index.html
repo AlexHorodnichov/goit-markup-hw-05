@@ -18,7 +18,7 @@
       <nav class="nav">
         <a class="logo-col" href="./index.html"><span class="logo">Web</span>Studio</a>
         <ul class="nav-list">
-          <li><a class="link" href="./index.html">Студія</a></li>
+          <li><a class="link current" href="./index.html">Студія</a></li>
           <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="link link-cont" href="#">Контакти</a></li>
         </ul>
@@ -46,6 +46,14 @@
       <div class="container hero">
         <h1 class="blocktext">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button class="order-btn">Замовити послугу</button>
+        <!-- <div class="data-modal">
+          <div class="modal">
+            <button type="button" class="data-modal-close"><a href="./index.html" target="_blank" rel="noopener norefferer"><svg width="16" height="12">
+              <use href="./images/vector.svg#icon-vector"></use>
+            </svg></a></button>
+            <form action="#"></form>
+          </div>
+        </div> -->
       </div>
     </section>
 
@@ -90,13 +98,16 @@
         <h2 class="large-header">Чим ми займаємося</h2>
         <ul class="work-photo">
           <li class="specialty">
-            <img src="./images/index/img.jpg" alt="Програмування" width="370">
+            <img class="specialty-img" src="./images/index/img.jpg" alt="Програмування" width="370">
+            <p class="specialty-text">ДЕСТОПНІ ДОДАТКИ</p>
           </li>
           <li class="specialty">
-            <img src="./images/index/img2.jpg" alt="Розробка додатків" width="370">
+            <img class="specialty-img" src="./images/index/img2.jpg" alt="Розробка додатків" width="370">
+            <p class="specialty-text">МОБІЛЬНІ ДОДАТКИ</p>
           </li>
           <li class="specialty">
-            <img src="./images/index/img3.jpg" alt="Веб-дизайн" width="370">
+            <img class="specialty-img" src="./images/index/img3.jpg" alt="Веб-дизайн" width="370">
+            <p class="specialty-text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
           </li>
         </ul>
       </div>
@@ -327,30 +338,30 @@
       </div>
       <div class="">
         <h3 class="footer-title">приєднуйтесь</h3>
-        <ul class="card-icons-social">
+        <ul class="footer-icons-social">
           <li class="icons-social">
-            <a class="social-link" href="#" target="_blank" aria-label="instagram">
+            <a class="footer-social-link" href="#" target="_blank" aria-label="instagram">
               <svg class="social-icon" width="20" height="20">
                 <use href="./images/icons.svg/sprite.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="icons-social">
-            <a class="social-link" href="#" target="_blank" aria-label="twitter">
+            <a class="footer-social-link" href="#" target="_blank" aria-label="twitter">
               <svg class="social-icon" width="20" height="20">
                 <use href="./images/icons.svg/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="icons-social">
-            <a class="social-link" href="#" target="_blank" aria-label="facebook">
+            <a class="footer-social-link" href="#" target="_blank" aria-label="facebook">
               <svg class="social-icon" width="20" height="20">
                 <use href="./images/icons.svg/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="icons-social">
-            <a class="social-link" href="#" target="_blank" aria-label="linkedin">
+          <li class="footer-social-link">
+            <a class="footer-social-link" href="#" target="_blank" aria-label="linkedin">
               <svg class="social-icon" width="20" height="20">
                 <use href="./images/icons.svg/sprite.svg#icon-linkedin"></use>
               </svg>
@@ -363,6 +374,7 @@
 
 
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
