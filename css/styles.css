@@ -90,6 +90,7 @@ header {
   display: block;
   font-weight: 500;
   font-size: 14px;
+  bottom: -1px;
   line-height: 1.1428;
   letter-spacing: 0.02em;
   text-decoration: none;
