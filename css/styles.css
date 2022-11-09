@@ -94,14 +94,16 @@ header {
   text-decoration: none;
   color: var(--c-dark);
 }
+.link-current,
 .link:hover,
 .link:focus {
   display: block;
   color: var(--c-blue);
 }
 
+.link-current::after,
 .link:hover::after,
-.link:focus::after {
+.link:focus::after{
   position: absolute;
   display: block;
   content: "";
