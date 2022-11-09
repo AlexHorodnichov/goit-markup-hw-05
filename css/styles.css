@@ -15,6 +15,7 @@
   /*Колір рамок*/
   --brd-c-gray: #eeeeee;
   --brd-c-light-gray: #ececec;
+  --tr-opac-cub-bez: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 *,
@@ -99,6 +100,7 @@ header {
 .link:focus {
   display: block;
   color: var(--c-blue);
+    transition: var(--tr-opac-cub-bez);
 }
 
 .link-current::after,
@@ -176,6 +178,7 @@ li {
 .contacts:hover,
 .contacts:focus {
   color: var(--c-blue);
+    transition: var(--tr-opac-cub-bez);
 }
 
 /*Main content*/
@@ -226,6 +229,7 @@ li {
 .order-btn:hover,
 .order-btn:focus {
   background-color: var(--bg-c-blue-white);
+  transition: var(--tr-opac-cub-bez);
 }
 
 .backdrop {
@@ -416,6 +420,7 @@ pointer-events: none;
 .social-link:focus {
   fill: var(--c-white);
   background-color: var(--bg-c-blue);
+    transition: var(--tr-opac-cub-bez);
 }
 
 .card-heros {
@@ -462,6 +467,7 @@ pointer-events: none;
 .client-link:focus {
   color: var(--c-blue);
   border-color: var(--bg-c-blue);
+  transition: var(--tr-opac-cub-bez);
 }
 .icon-group {
   fill: currentColor;
@@ -496,6 +502,7 @@ pointer-events: none;
 .footer-item:hover,
 .footer-item:focus {
   color: var(--c-blue);
+    transition: var(--tr-opac-cub-bez);
 }
 .footer-icons-social {
   display: flex;
@@ -519,6 +526,7 @@ pointer-events: none;
 .footer-social-link:focus {
   fill: var(--c-white);
   background-color: var(--bg-c-blue);
+    transition: var(--tr-opac-cub-bez);
 }
 
 address {
@@ -539,6 +547,7 @@ address {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--c-blue);
+    transition: var(--tr-opac-cub-bez);
 }
 .footer-title {
   font-weight: 700;
@@ -587,6 +596,7 @@ address {
   color: var(--c-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+      transition: var(--tr-opac-cub-bez);
 }
 
 .portfolio-item {
@@ -609,6 +619,7 @@ address {
 .portfolio-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+      transition: var(--tr-opac-cub-bez);
 }
 .portfolio-images-wrapper {
   position: relative;
