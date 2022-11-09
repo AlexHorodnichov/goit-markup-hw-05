@@ -96,6 +96,7 @@ header {
 }
 .link:hover,
 .link:focus {
+  display: block;
   color: var(--c-blue);
 }
 
