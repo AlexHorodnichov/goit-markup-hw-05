@@ -250,7 +250,10 @@ li {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.data-modal-close {
+.modal-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   right: 8px;
   top: 8px;
@@ -259,6 +262,32 @@ li {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  cursor: pointer;
+}
+.form-title {
+      margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.input-box {
+  width: 100%;
+  max-height: 40px;
+}
+.coment {
+  max-width: 100%;
+  max-height: 96px;
 }
 
 .features-box {
@@ -574,10 +603,9 @@ address {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-images-wrapper{
-position: relative;
-overflow: hidden;
-
+.portfolio-images-wrapper {
+  position: relative;
+  overflow: hidden;
 }
 .portfolio-text {
   position: absolute;
