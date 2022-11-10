@@ -101,7 +101,6 @@ header {
 .link:focus {
   display: block;
   color: var(--c-blue);
-    transition: var(--tr-opac-cub-bez);
 }
 
 .link-current::after,
@@ -115,6 +114,7 @@ header {
   margin-top: 28px;
   background: #2196f3;
   border-radius: 2px;
+  transition: ;
 }
 
 li {
